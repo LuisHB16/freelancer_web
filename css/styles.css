@@ -1,0 +1,43 @@
+/*CSS "variables"*/
+:root {
+    --black: #212121; /*Custom properties defined by --*/
+    --primary: #0f1626;
+    --secondary: #ff533d;
+    --gray: #949B96;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px; /*1 rem = 10 px*/
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+.title span {
+    font-size: 2rem;
+}
+
+.nav-bg {
+    background-color: var(--primary);
+}
+
+.container {
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.main-navigation {
+    padding: 1rem;
+}
+
+.main-navigation a {
+    color: white;
+    text-decoration: none;
+}
