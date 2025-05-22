@@ -11,6 +11,7 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box; /* Box model "hack" */
+    scroll-snap-type: y mandatory;
 }
 
 *, *:before, *:after {
@@ -167,6 +168,14 @@ h1, h2, h3 {
 .hero-content .location {
     display: flex;
     align-items: flex-end;
+}
+
+/* Scroll snap */
+.services,
+.contact-form,
+.main-navigation {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
 }
 
 /* Services */
